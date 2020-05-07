@@ -1,0 +1,28 @@
+
+
+
+
+.content2{
+    margin-left: 20%;
+    margin-top: 1%;
+    padding-left: 30%;
+
+}
+
+.task-text{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin-top: 1%;
+    margin-bottom: 5%;
+
+}
+
+
+.content3{
+    background-color: rgb(201, 48, 48);
+    border: 1px solid  rgb(46, 46, 46);
+    margin-right:7%;
+   color: white;
+}
+
