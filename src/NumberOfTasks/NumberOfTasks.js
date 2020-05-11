@@ -8,7 +8,7 @@ function NumberOfTasks(props) {
     <div className="container ">
         <div className= "row col-10  numberoftasks ">
            <div className="col-12 col-md-9 numberoftext_text" align="center">
-                {props.text}
+           <p >{ props.count } {props.text}</p>
             </div>
         </div>  
     </div>

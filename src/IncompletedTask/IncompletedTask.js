@@ -8,7 +8,7 @@ function IncompletedTask(props) {
     <div className= "row col-10 list-group-item d-flex justify-content-between align-items-center ">
         
                
-                  <div className="col-12 col-md-8 task-text" align="center">
+                  <div className={`col-12 col-md-8 task-text task task--${ props.status ? 'complete' : 'active'}`} align="center">
                   {props.text}
                   </div>
                   <div className="col-12 col-md-4" >

@@ -1,8 +1,9 @@
 .content5{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     align-items: center;
     margin-left: 13%;
+    border: 1px dotted black;
  }
 
  .content6{
@@ -13,3 +14,32 @@
 
     
  }
+
+ .numberoftext_text{
+
+
+   background-color: rgb(180, 180, 180);
+   font-size: x-large;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: initial;
+   margin-left: 30%;
+   font-weight: bold;
+   margin-top: 5%;
+   padding-left: 3%;
+  
+}
+
+.bar{
+   height: 40%;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-left: 13%;
+   border: 1px dotted black;
+  
+}
+.precentage-on-bar{
+   margin-top: 6%;
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+
+}

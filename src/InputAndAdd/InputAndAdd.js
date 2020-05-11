@@ -1,16 +1,22 @@
 import React from 'react';
 import './InputAndAdd.css';
 
-function InputAndAdd() {
+function InputAndAdd(props) {
   return (
-
 
     <div className="container " align ="center">
         
         <div className="row"> 
-            <h3 className="numberoftext_text"> (10) To Do Tasks: </h3>
+            <p className="numberoftext_text"> {props.count} Total tasks: </p>
         </div>
-
+        <div className="row"> 
+        <div className="col-10 col-md-8">
+        <div class="progress bar" >
+        <div class="progress-bar bg-danger" role="progressbar" style={{width: `${props.progress}%`}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> <p className="precentage-on-bar">{props.progress}%</p></div>
+        </div>
+        </div>
+        </div>
+       
         <div className= "row">
             <div className="col-10 col-md-8">
             <input type="text" className="form-control  content5"  name="text_name" placeholder=" Add a new Task"  aria-describedby ="inputGroup-sizing-Default"/>
