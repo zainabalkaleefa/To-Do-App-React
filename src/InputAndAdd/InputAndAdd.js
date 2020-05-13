@@ -7,32 +7,27 @@ function InputAndAdd(props) {
     <div className="container " align ="center">
         
         <div className="row"> 
-            <p className="numberoftext_text"> {props.count} Total tasks: </p>
+          <p className="numberoftext_text"> {props.count} Total tasks: </p>
         </div>
+        
         <div className="row"> 
-        <div className="col-10 col-md-8">
-        <div class="progress bar" >
-        <div class="progress-bar bg-danger" role="progressbar" style={{width: `${props.progress}%`}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> <p className="precentage-on-bar">{props.progress}%</p></div>
-        </div>
-        </div>
+          <div className="col-10 col-md-8">
+            <div className="progress bar" >
+            <div className="progress-bar bg-danger" role="progressbar" style={{width: `${props.progress}%`}} > <p className="precentage-on-bar">{props.progress}% {props.text}</p></div>
+            </div>
+          </div>
         </div>
        
         <div className= "row">
-            <div className="col-10 col-md-8">
+          <div className="col-10 col-md-8">
             <input type="text" className="form-control  content5"  name="text_name" placeholder=" Add a new Task"  aria-describedby ="inputGroup-sizing-Default"/>
-            </div>
-
-
-            <div className="col-10 col-md-2" >
+          </div>
+          <div className="col-10 col-md-2" >
             <button type="button" className="btn btn-danger content6" align="center"> <h4>  +  </h4>  </button>
-
-            </div>
-        
-        
+          </div>
         </div>
               
-      
-  </div>
+    </div>
   );
 }
 
