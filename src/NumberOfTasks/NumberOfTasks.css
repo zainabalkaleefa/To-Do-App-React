@@ -1,18 +1,17 @@
 .numberoftasks{
 
     margin-top: 10%;
-    margin-bottom: 2%;
+    margin-bottom: -10px;
     
 }
 
 .numberoftext_text{
 
     text-align: left;
-    background-color: rgb(180, 180, 180);
-    font-size: x-large;
+    font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-style: initial;
-    margin-left: 9%;
+    margin-left: 11%;
     font-weight: bold;
     margin-top: 5%;
    

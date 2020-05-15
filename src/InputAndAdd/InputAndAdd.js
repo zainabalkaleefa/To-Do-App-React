@@ -6,14 +6,15 @@ function InputAndAdd(props) {
 
     <div className="container " align ="center">
         
-        <div className="row"> 
-          <p className="numberoftext_text"> {props.count} Total tasks: </p>
-        </div>
+        
+          <p className="numberoftext_text1">  Tasks To Do : </p>
+          <p  className=" number0fProgress"> {props.num} / {props.count} Completed</p>
+          
         
         <div className="row"> 
           <div className="col-10 col-md-8">
             <div className="progress bar" >
-            <div className="progress-bar bg-danger" role="progressbar" style={{width: `${props.progress}%`}} > <p className="precentage-on-bar">{props.progress}% {props.text}</p></div>
+            <div className="progress-bar bg-danger " role="progressbar" style={{width: `${props.progress}%`}} > <p className="precentage-on-bar">{props.progress}% {props.text}</p></div>
             </div>
           </div>
         </div>

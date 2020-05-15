@@ -35,12 +35,12 @@ function App() {
 
     <div className="main_div">
       <div className="headermargin">
-      <InputAndAdd count={activeTasks.length+ completedTasks.length} progress={Math.round(progressPrecentage)} text={<big> &nbsp;Completed </big>}/>
+      <InputAndAdd num ={ completedTasks.length}  count={activeTasks.length+ completedTasks.length} progress={Math.round(progressPrecentage)} text={<big> &nbsp;Completed </big>}/>
       </div>
       
       <NumberOfTasks  count={ activeTasks.length }  text=" Remained Tasks"/> 
 
-      <div className="list-group"> 
+      <div> 
         {activeTasks.map( task => <IncompletedTask key={task.id} text={task.text}/>)}
       </div>
 
