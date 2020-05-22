@@ -2,7 +2,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
     align-items: center;
-    margin-left: 13%;
+    margin-left: 12%;
     border: 1px dotted black;
  }
 
@@ -10,7 +10,7 @@
     margin-top: 25px;
     margin-bottom: 30px;
     align-items: center;
-    margin-left: 100px;   
+    margin-left: 90px;   
  }
 
  .numberoftext_text1{
@@ -41,7 +41,7 @@
 .bar{
    height: 30%;
    margin-left: 13%;
-   border: 1px dotted black;
+   
 
   
 }

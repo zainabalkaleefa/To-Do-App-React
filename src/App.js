@@ -39,6 +39,7 @@ function App() {
      const updatedTask=[...activeTasks, newTask];
      setActiveTasks(updatedTask);
      
+     
     }
     
   return (
