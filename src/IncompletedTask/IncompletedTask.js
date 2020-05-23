@@ -20,7 +20,7 @@ function IncompletedTask(props) {
         </div>
         <div className="col-12 col-md-5" >
             <button type="button" className="content3 btn btn-danger" onClick={completeClick}> Complete</button>
-            <button type="button" className="content3 btn btn-danger " onClick={deleteClick} > Delete  </button> 
+            <button type="button" className="content3 btn btn-danger " onClick={deleteClick} >  Delete  </button> 
         </div>
       </div>
     </div>

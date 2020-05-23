@@ -41,7 +41,10 @@ function App() {
      
      
     }
-    
+    function trashCompletedTask(id){
+      const updateTasks= completedTasks.filter(task => task.id !== id);
+    setCompletedTasks(updateTasks);
+    }
   return (
 
     <div className="main_div">
@@ -67,7 +70,11 @@ function App() {
       <NumberOfTasks count= { completedTasks.length } text="Completed Tasks" /> 
 
       <div>
-        {completedTasks.map( task => <CompletedTask key={task.id} text={task.text} />)}
+        {completedTasks.map( task => <CompletedTask 
+        key={task.id} 
+        text={task.text} 
+        id={task.id} 
+        trashCompletedTask={trashCompletedTask} />)}
       </div>
 
       <footer>&copy; Tech Returner 2020 - Zainab Noori</footer>
