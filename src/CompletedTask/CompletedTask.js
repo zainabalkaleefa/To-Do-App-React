@@ -11,8 +11,6 @@ function CompletedTask(props) {
 
   }
 
-
-
   return (
 
     <div className="container " align ="center">
